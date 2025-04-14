@@ -1,3 +1,4 @@
+# app/main.py
 from fastapi import FastAPI, UploadFile, File
 from app.optimizer import optimize_portfolio
 from app.utils import parse_csv
